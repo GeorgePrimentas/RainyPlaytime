@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <Header title={siteTitle} />
       <main className="c-site-main" tabIndex="0">
+      <p>George Primentas</p>
       <Icon name="clear"/>
     
       </main>
