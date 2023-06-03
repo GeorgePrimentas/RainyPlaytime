@@ -1,2 +1,95 @@
 @use "theme/utilities.scss";
 @use "theme/global.scss";
+
+.App {
+    text-align: center;
+}
+
+.c-site-main {
+    text-align: center;
+}
+
+.topSection {
+    background-color: rgb(126, 157, 213);
+    text-align: left;
+}
+
+.inputField {
+    background-color: rgb(126, 157, 213);
+    border: 0;
+    color: white;
+    margin: 15px;
+    padding-bottom: 15px;
+    // box-sizing: border-box;
+}
+
+.inputField:focus {
+    outline: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(95, 120, 193);
+    padding-bottom: 14px;
+    margin: 15px;
+    box-sizing: border-content;
+    font-family: var(--theme-font);
+}
+
+.button {
+    background-color: rgb(95, 120, 193);
+    color: rgb(0, 0, 64);
+    text-transform: uppercase;
+    font-family: var(--theme-font);
+    border: 0;
+    padding: 15px;
+    margin: 15px;
+}
+
+.mainSection {
+    background-color: rgb(166, 204, 240);
+    text-align: center;
+}
+
+.mainIcon {
+    width: 175px;
+}
+
+.weatherDescription {
+    color: white;
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.temperature {
+    color: rgb(0, 0, 64);
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.weatherSubsidiary {
+    font-size: 12px;
+    color: rgb(0, 0, 64);
+}
+
+.lightText {
+    font-weight: 100;
+}
+
+.hourlyPredictionGroup {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.hourlyPrediction {
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 14px;
+    width: 100px;
+}
+
+.smallIcon {
+object-fit: contain;
+padding: 0px 0px;
+margin: -20px 0px;    
+}
