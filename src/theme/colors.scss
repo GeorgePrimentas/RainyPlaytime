@@ -9,10 +9,11 @@
   --theme-color-highlight: rgba(0, 0, 0, 1);
   --theme-color-shade: rgba(0, 0, 0, 1);
 
-  @media (prefers-color-scheme: dark) {
-    --theme-color-paper: rgba(0, 0, 0, 1);
-    --theme-color-ink: rgba(255, 255, 255, 1);
-    --theme-color-highlight: rgba(0, 0, 0, 1);
-    --theme-color-shade: rgba(0, 0, 0, 1);
-  }
+// For now (08 June 2023, 21.43pm - I cancel the following)
+  // @media (prefers-color-scheme: dark) {
+  //   --theme-color-paper: rgba(0, 0, 0, 1);
+  //   --theme-color-ink: rgba(255, 255, 255, 1);
+  //   --theme-color-highlight: rgba(0, 0, 0, 1);
+  //   --theme-color-shade: rgba(0, 0, 0, 1);
+  // }
 }

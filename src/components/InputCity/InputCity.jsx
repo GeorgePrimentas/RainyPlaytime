@@ -8,6 +8,7 @@ const InputCity = ({ setWeatherData }) => {
   };
 
   const handleButtonClick = () => {
+
     fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&cnt=8&units=metric&appid=1d162b7fec3f97b54fcd4bc4510b95b2`)
       .then((response) => response.json())
       .then((jsonData) => {

@@ -30,11 +30,21 @@ const HourlyPrediction = ({hour, icon, altIcon, temperature}) => {
   } else {
     weatherIcon = unknown;
   }
+let scale = "C";
+//   // Attempt to have Farenheit scale ...
+//   scale = "F";
+//   temperature = Math.round(temperature * 1.8 + 32);
+//   // End of calculations
+//   // If the feature is finally added, rounding should
+//   // be done on this component for both scales
+//   // and not on the App.js; at the moment, if in
+//   // Farnheit, the degrees are rounded twice...
+
 return (
         <div className="hourlyPrediction">
             <p>{hour}</p>
             <img className="smallIcon" src={weatherIcon} alt={altIcon} />
-            <p>{temperature}°C</p>
+            <p>{temperature}°{scale}</p>
         </div>
 )
 }
