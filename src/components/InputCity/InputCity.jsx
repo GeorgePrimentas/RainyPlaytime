@@ -23,6 +23,8 @@ const InputCity = ({ setWeatherData }) => {
     <div className="topSection">
       <input className="inputField" placeholder="Type in a city name" type="text" onChange={handleInputChange} />
       <button className="button" onClick={handleButtonClick}>find weather</button>
+      {/* <span>F</span><input type="radio" name="scale" />
+       <input type="radio" name = "scale" checked /><span>C</span> */}
     </div>
   );
 };
