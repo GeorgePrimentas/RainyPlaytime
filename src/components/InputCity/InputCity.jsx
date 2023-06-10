@@ -19,8 +19,8 @@ const InputCity = ({ setWeatherData }) => {
         setMessage(message);
       
         if (message === "city not found") {
-      window.location.reload();
-      }
+          window.location.reload();
+        }
       }) 
       .catch((error) => {
         console.log('Error fetching data:', error);
